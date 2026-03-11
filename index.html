@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CK Jha | Short Form Video Editor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:'Plus Jakarta Sans',sans-serif;
+background:#0c0c0c;
+color:#fff;
+scroll-behavior:smooth;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:100px 0;
+}
+
+nav{
+position:fixed;
+top:20px;
+left:50%;
+transform:translateX(-50%);
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(20px);
+padding:12px 28px;
+border-radius:50px;
+display:flex;
+gap:25px;
+z-index:999;
+border:1px solid rgba(255,255,255,0.1);
+}
+nav a{
+color:#fff;
+text-decoration:none;
+font-size:.85rem;
+opacity:.8;
+}
+nav a:hover{opacity:1}
+
+h1{
+font-size:3.4rem;
+margin-bottom:20px;
+letter-spacing:-1px;
+}
+
+h2{
+font-size:2.3rem;
+margin-bottom:60px;
+text-align:center;
+}
+
+p{color:#aaa;line-height:1.7}
+
+.hero{
+text-align:center;
+padding-top:160px;
+}
+.hero p{
+max-width:700px;
+margin:auto;
+margin-bottom:40px;
+}
+
+.btn{
+padding:14px 36px;
+border-radius:50px;
+background:#fff;
+color:#000;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+display:inline-block;
+}
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 20px 60px rgba(255,255,255,.15);
+}
+
+/* Portfolio */
+.video-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+}
+iframe{
+width:100%;
+height:520px;
+border-radius:25px;
+border:none;
+box-shadow:0 25px 80px rgba(0,0,0,.8);
+}
+
+/* Grid Cards */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+}
+
+.card{
+background:linear-gradient(145deg,#111,#0a0a0a);
+padding:45px;
+border-radius:25px;
+border:1px solid rgba(255,255,255,0.08);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-6px);
+border:1px solid rgba(255,255,255,0.18);
+}
+
+.card h3{
+margin:15px 0;
+font-size:1.2rem;
+}
+
+.card ul{
+padding-left:18px;
+color:#aaa;
+line-height:1.8;
+}
+
+/* Software */
+.software-grid{
+display:flex;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+.software-item{
+text-align:center;
+}
+.software-item img{
+width:70px;
+margin-bottom:12px;
+}
+
+/* About */
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+.about img{
+width:100%;
+border-radius:30px;
+box-shadow:0 30px 90px rgba(0,0,0,.7);
+}
+
+/* Responsive */
+@media(max-width:900px){
+.video-grid{
+grid-template-columns:1fr;
+}
+.about{
+grid-template-columns:1fr;
+text-align:center;
+}
+nav{
+display:none;
+}
+h1{
+font-size:2.2rem;
+}
+}
+
+footer{
+padding:80px 0;
+text-align:center;
+color:#666;
+border-top:1px solid rgba(255,255,255,0.08);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#work">Work</a>
+<a href="#services">Services</a>
+<a href="#process">Process</a>
+<a href="#software">Software</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero container">
+<h1>High-Retention Short Form Editing.</h1>
+<p>
+I’m CK Jha, a short-form video editor helping creators and brands turn raw footage into scroll-stopping, algorithm-optimized content built for performance.
+</p>
+<a href="mailto:ickjha01@gmail.com" class="btn">Work With Me</a>
+</section>
+
+<section id="work" class="container">
+<h2>Selected Work</h2>
+<div class="video-grid">
+<iframe src="https://www.youtube.com/embed/yPItsCKLXa4" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1qbjX5xqUcw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/5wf1OOcP_P8" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/yeArIwndH3Q" allowfullscreen></iframe>
+</div>
+</section>
+
+<section id="services" class="container">
+<h2>Premium Services</h2>
+<div class="grid">
+
+<div class="card">
+<h3>High-Retention Editing</h3>
+<ul>
+<li>Hook-focused storytelling</li>
+<li>Retention pacing systems</li>
+<li>Platform optimization</li>
+<li>Pattern interrupts</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Dynamic Subtitles & Motion</h3>
+<ul>
+<li>Animated captions</li>
+<li>Motion typography</li>
+<li>Premium transitions</li>
+<li>Brand-aligned styling</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Content Growth Optimization</h3>
+<ul>
+<li>Watch-time structuring</li>
+<li>Engagement spike triggers</li>
+<li>CTA placement strategy</li>
+<li>Algorithm-aware editing</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="process" class="container">
+<h2>How I Work</h2>
+<div class="grid">
+
+<div class="card">
+<h3>01 — Strategy</h3>
+<p>I analyze audience behavior and content positioning before editing begins.</p>
+</div>
+
+<div class="card">
+<h3>02 — Execution</h3>
+<p>Cinematic cuts, captions, motion design, and structured pacing layered for retention.</p>
+</div>
+
+<div class="card">
+<h3>03 — Optimization</h3>
+<p>Final refinement with engagement triggers and performance-driven adjustments.</p>
+</div>
+
+</div>
+</section>
+
+<section id="software" class="container">
+<h2>Software & Tools</h2>
+
+<div class="software-grid">
+
+<div class="software-item">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Adobe_Premiere_Pro_CC_2026_icon.svg/250px-Adobe_Premiere_Pro_CC_2026_icon.svg.png">
+<p>Adobe Premiere Pro</p>
+</div>
+
+<div class="software-item">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/3840px-Adobe_After_Effects_CC_icon.svg.png">
+<p>Adobe After Effects</p>
+</div>
+
+<div class="software-item">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png">
+<p>DaVinci Resolve</p>
+</div>
+
+</div>
+</section>
+
+<section class="container about">
+<div>
+<h2 style="text-align:left;margin-bottom:30px;">About CK Jha</h2>
+<p>
+I specialize in high-retention short-form editing designed to capture attention instantly and keep viewers engaged until the final second.
+</p>
+<br>
+<p>
+My approach blends cinematic storytelling, motion design, and algorithm strategy — turning content into performance-driven growth assets.
+</p>
+</div>
+<div>
+<img src="https://i.ibb.co/MxZyT2JB/Untitled.png">
+</div>
+</section>
+
+<section id="contact" class="container" style="text-align:center;">
+<h2>Let’s Build Your Authority</h2>
+<a href="mailto:ickjha01@gmail.com" class="btn">Email Me</a>
+</section>
+
+<footer>
+© 2026 CK Jha — Short Form Video Editor
+</footer>
+
+</body>
+</html>
